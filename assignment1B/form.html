@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <form method="get|post">
+            <div class="personal">
+                <fieldset>
+                    <legend>Personal Information</legend> 
+                    <h1 id = "personalInfo">Personal Information</h1>
+
+                
+                    <label for="name"><b>Name</b></label>
+                    <input type="text" placeholder="Name" name="name" id="name" required>
+                
+                    <label for="email"><b>Email</b></label>
+                    <input type="email" placeholder="Enter Email" name="email" id="email" required>
+
+                    <label for="age"><b>Age</b></label>
+                    <input type="number" name="age" min="1" max="200" id="age">
+
+                    <label for="dateofbirth"><b>Date of Birth</b></label>
+                    <input type="date" name="bday" id="bday"> <br>
+
+                    <label for="Gender"><b>Gender</b></label>
+                    <input type="checkbox" name="male" value="Male"> Male
+                    <input type="checkbox" name="female" value="Female"> Female
+                    
+
+                    <br>
+                    <br>
+                
+                    <label for="comments"><b>Comments</b></label>
+                    <textarea name="comments" rows = "5" cols = "50" id="comments"></textarea>
+
+                    <br>
+                    <br>
+
+                    <input type="submit">
+                </fieldset>
+            </div>
+
+            
+            <div class="favorite">
+                <fieldset>
+                    <legend>Tell Us About Your Favorite Story</legend>
+                    <h1 id = "favoriteStory">Tell Us About Your Favorite Story</h1>
+
+                    <select name="Stories">
+                        <optgroup label="Stories" id="stories"></optgroup>
+                            <option value="Gone" selected>Gone</option>
+                            <option value="Kumari">Kumari</option>
+                            <option value="Daddy Manual">Daddy Manual</option>
+                        </optgroup>
+                    </select>
+
+                    <p>Would you recommend this story to someone else?</p>
+                    <input type="radio" name="yes" value="yes" checked>Yes
+                    <input type="radio" name="no" value="no"> No<br>
+
+                    <p>One a scale from 0 to 100, what would you rate this story?</p>
+                    <input type="range" name="points" minx="0" max="100" id="points">
+                    <input type="button" onclick="alert('Thanks for your rating!')" value="Rate" id="rate">
+                
+                    <label for="psw-repeat"><b>Repeat Password</b></label>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                
+                </fieldset>
+            </div>
+                
+
+            <div class="otherInfo">
+                <fieldset>
+                    <legend>Login</legend>
+                    <h1 id="Login">Login</h1>
+            
+                    <label for="email"><b>Email</b></label>
+                    <input type="text" placeholder="Enter Email" name="email" required>
+                
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                
+                    <label for="color"><b>Your Favorite Color</b></label>
+                    <input type="color" name="color" id="color" required>
+                
+                    <button type="submit" class="registerbtn" id="register">Login</button>
+                </fieldset>
+            </div>
+
+        </form>
+    </body>
+
+    <footer>© 2019 Branden Kang</footer>
+
+
+
+
+
+</html>
+
+
+
+

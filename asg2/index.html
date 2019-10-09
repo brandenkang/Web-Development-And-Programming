@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    <head>
+        <title>Assignment 2</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    </head>
+    <body id = "body">
+        <br>
+        <br>
+        <center> <h1 id = "h1" style='border: 3px black solid;'>Style Application</h1></center>
+        <br>
+        <br>
+        <center><button class="btn" onclick="styleApp()">Click to Style Application</button></center>
+        <br>
+        <center><button class="btn" onclick="undo()">Undo</button></center>
+        <br>
+        <hr>
+        <br>
+        <center> <h1 id = "h1" style='border: 3px black solid;'>Prize Application</h1></center>
+        <br>
+        <br>
+        <center><button class="btn" onclick="randArray()">Click to see our prizes</button></center>
+        <center><p id="prize"></p></center>
+        <br>
+        <hr>
+        <br>
+        <center> <h1 id = "h1" style='border: 3px black solid;'>Swap Text Application</h1></center>
+        <br>
+        <center><div>Click one of the text blocks below to swap</div></center>
+        <br>
+        <br>
+        <center><p id="p1" onclick="swapT()">First text block</p></center><br><br><br>
+        <center><p id="p2" onclick="swapT()">Second text block</p></center>
+        <br>
+        <br>
+        <hr>
+        <br>
+        <center> <h1 id = "h1" style='border: 3px black solid;'>Swap Image Application</h1></center>
+        <br>
+        <center><div>Click one of the dog images below to swap</div></center>
+        <br>
+        <br>
+        <center><img id="img1" src="img/animal1.jpg" onclick="swapI()"></center>
+        <br> 
+        <br>
+        <br>
+        <center><img id="img2" src="img/animal2.jpg" onclick="swapI()"></center>
+
+        <hr>
+        <br>
+        <center> <h1 id = "h1" style='border: 3px black solid;'>New Doc Application</h1></center>
+        <br>
+        <center><img id="cat" src="img/cat.jpg" onclick="newDoc()"></center>
+
+        <hr>
+        <br>
+        <center> <h1 id = "h1" style='border: 3px black solid;'>Distance Converter Application</h1></center>
+        <br>
+        <center><p>(Type an input in the kilometers field to get the output in miles)</p></center><br>
+        <center>Kilometers: <input type="number" id="input"></center><br>
+        <br>
+        <center><button id="convert" onclick="convert()">Convert</button></center>
+        <br>
+        <center>Miles: <textarea id="output"></textarea></center><br><br>
+        <script src="asg2.js"></script>
+    </body>
+</html>

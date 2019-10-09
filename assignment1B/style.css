@@ -1,0 +1,123 @@
+.navBar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+.navBar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.navBar a:hover {
+    color: orange;
+}
+
+.navBar a.visited {
+    color: orange;
+}
+  
+.navBar a.active {
+    color: red;
+}
+
+.personal {
+    padding: auto; 
+    text-align: justify;
+    background-color: lightblue;
+}
+
+.favorite {
+    padding: auto; 
+    text-align: justify;
+    background-color: lightcoral;
+}
+
+.otherInfo {
+    padding: auto; 
+    text-align: justify;
+    background-color: lightseagreen;
+
+}
+
+body {
+    background-color: gray;
+}
+
+h1 {
+    font-size: 20px; 
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+}
+aside {
+    text-emphasis-color: red; 
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto; 
+    height: auto;
+}
+
+footer {
+    position: bottom;
+    bottom:0;
+    width:50%;
+    height:12px; 
+    color: white;
+    background-color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 12px; 
+    }
+    
+    p {
+        text-align: justify;
+        font-size: 12px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 15px; 
+    }
+    
+    p {
+        text-align: justify;
+        font-size: 15px;
+    }
+
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 20px; 
+    }
+    
+    p {
+        text-align: justify;
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+

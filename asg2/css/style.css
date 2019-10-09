@@ -1,0 +1,41 @@
+body, h1 {
+    font-family: 'Merriweather', sans-serif;
+}
+
+
+h1 {
+    display: inline;
+    border: solid;
+    padding: 2px;
+    background-color: aquamarine;
+}
+
+#p1 {
+    background-color: indianred;
+}
+
+#p2 {
+    background-color: lightblue; 
+}
+
+#p1, #p2 {
+    border: solid #000000;
+    padding: 15px;
+    display: inline;
+}
+
+#img1, #img2 {
+    height:250px;
+    width:auto;
+}
+
+.btn {
+    background-color: aquamarine; 
+    color:black;
+    display: inline-block;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Merriweather', sans-serif;
+  }
