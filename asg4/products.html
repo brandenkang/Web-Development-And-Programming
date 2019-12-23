@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+    <head>
+        <title>Assignment Four</title>
+        <link rel="stylesheet" href="css/style1.css">
+    </head>
+    <body>
+        <header>
+            <center><h1>Cat Meme Store</h1></center>
+        </header>
+        <br>
+        <br>
+        <center>
+        <fieldset id="tShirtForm">
+                <center><h3>Angry Cat T-Shirt</h3></center>
+                <center><img class="img" src="images/img1.jpeg"></center>
+                <br>
+                <center>$15</center>
+                <br>
+                <center>Select Size:
+                <form name="tsize">
+                    <input type="radio" name="size" value="XS">XS</input>
+                    <br>
+                    <input type="radio" name="size" value="S">S</input>
+                    <br>
+                    <input type="radio" name="size" value="M">M</input>
+                    <br>
+                    <input type="radio" name="size" value="L">L</input>
+                    <br>
+                    <input type="radio" name="size" value="XL">XL</input>
+                </form>
+                </center>
+                <br>
+                <br>
+                <center>Quantity:<br>
+                    <input type="number"  id="tShirtQ" type="number" min="1" max="50" name="tShirtQ"><br>
+                </center>
+                <br>
+                <br>
+                <center><div id="tshirtResult" style="color: rgb(0, 4, 255);"></div></center>
+                <br>
+                <br>    
+        </fieldset>
+
+        <fieldset id="hoodieForm">
+                <center><h3>Eh Smudge the Cat Hoodie</h3></center>
+                <center><img class="img" src="images/img2.jpg"></center>
+                <br>
+                <center>$35</center>
+                <br>
+                <center>Select Size: 
+                    <form name="hsize">
+                            <input type="radio" name="size" value="XS">XS</input>
+                            <br>
+                            <input type="radio" name="size" value="S">S</input>
+                            <br>
+                            <input type="radio" name="size" value="M">M</input>
+                            <br>
+                            <input type="radio" name="size" value="L">L</input>
+                            <br>
+                            <input type="radio" name="size" value="XL">XL</input>
+                    </form>
+                <br>
+                <br>
+                <center>Quantity:<br>
+                    <input type="number" id="hoodieQ"  min="1" max="50" name="hoodieQ"><br>
+                </center>
+                <br>
+                <br>
+                <br>
+                <center><div id="hoodieResult" style="color:rgb(0, 4, 255);"></div></center>
+        </fieldset> 
+        <br>
+        <br>
+        <br>
+        <hr>
+        <h3>Delivery Method:</h3>
+        <select name="deliveryMethod">
+            <option value="Pickup">In-Store Pickup</option>
+            <option value="Ship">Ship to Address ($10)</option>
+        </select>
+        
+        <form id="contact" action="#" onsubmit="receipt(); return false" method=post>
+            Full Name: <input type="text" name="Name" > <br>
+            Address Line: <input type="text" name="Address"> <br>
+            Zipcode: <input type=number name="Zipcode"><p>
+            Email: <input type=email name="Email"><p>
+            Phone Number: <input type=number name="Phone Number"><p></p>
+            Credit Card Number: <input type=number name="Credit Card Number"><p> 
+            Expiration Date (mm/dd/yyyy): <input type=number name="Expiration Date"><p>    
+            CVV: <input type=number name="CVV"><p>    
+            <input type="submit" value="Submit" name=submit>
+            <input type="reset" value="Reset" name=reset>
+        </form> 
+        </center>
+
+<div id="date"></div>
+<div id="grandTotal"></div>
+<div id="output"></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

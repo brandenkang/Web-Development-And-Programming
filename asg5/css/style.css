@@ -1,0 +1,14 @@
+.btn1,.btn2,.btn3,.btn4,.move {
+    color:black;
+    text-align: center;
+    padding: 10px 10px;
+}  
+
+.box {
+    color: white;
+    background-color: black;
+    width: 45px;
+    height:45px;
+    position: absolute; 
+    left: 1400px;
+}

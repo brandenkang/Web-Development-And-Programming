@@ -1,0 +1,32 @@
+h1 {
+	text-align: center;
+	height: 25px;
+  margin: auto;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+}
+  
+#tShirtForm{
+  position: relative;
+  margin-left :-40%;
+  width: 25%;
+  display: inline;
+}
+
+#hoodieForm{
+  position: absolute;
+  margin-left :10%;
+  display: inline;
+  width: 25%;
+}
+
+.img{
+  position: relative;
+  max-height:200px;
+  max-width: 200px;
+}

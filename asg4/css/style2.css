@@ -1,0 +1,30 @@
+li {
+	padding-top: 12px; 
+	background-color: gainsboro;
+	text-align: center;
+	color:black;
+	border: dotted; 
+	font-size: 24px;
+	height: 50px;
+	list-style-type: none;
+
+}
+
+.red {
+	background-color: #F99;
+	color: white;
+	border: solid; 
+}
+
+.blue {
+	background-color: #009;
+	color: white;
+	border: dotted; 
+}
+
+#add {
+    padding: 12px 24px;
+    font-size: 18px;
+}
+
+
