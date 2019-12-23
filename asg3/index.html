@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <head>
+        <title>Assignment 3</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link>
+    </head>
+    <body onload="randomImage()">
+    <center><h1>Simple Javascript Applications</h1></center>
+    <br>
+    <center><img id="random" src="" width="500px" height="500px"></center>
+    <br>
+    <center> <h2>Click "Start" for Slide Show</center></h2>
+    <br>
+    <center><img id="slideshow" width="500px" height="500px"></center>
+    <br>
+    <center><button onclick="startButton()">Start</button></center>
+    <center><button onclick="endButton()">Stop</button></center>
+    <br>
+    <center><h2>Simple Dice Game</center></h2>
+    <center><p>Enter a number (between 2 and 36):</p><input type="number" min="2" max="12" name="sum" id="diesum">&nbsp;<button onclick="roll()">Roll!</button></center>
+    <center><img id="die1" src="" width="150" height="150"></center>
+    <center><img id="die2" src="" width="150" height="150"></center>
+    <center><p id="sum"></p></center>
+    <center><p id="alert"></p></center>
+    <br>
+    <center><h2>NYU Holiday Calendar</h2></center>
+    <center><p>Enter a date to check whether it is a holiday: </p><input id="datetime" type="date"></center>
+    <center><button onclick="checkDate()">Check</button></center>
+    <center><p id="alert2"></p></center>
+    <center><img id="holidayImg" src="" width="500px" height="500px"></center>
+    <center><p id="citation"></p></center>
+    <script src="js/script.js"></script>
+    </body>
+</html>
